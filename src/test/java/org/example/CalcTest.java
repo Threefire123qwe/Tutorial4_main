@@ -11,4 +11,15 @@ public class CalcTest {
         assertEquals(4, c.add(2,2));
     }
 
+    // 新增的测试用例
+    @Test
+    void testSubtraction() {
+        // 检查subtract方法是否按预期工作
+        assertEquals(2, c.subtract(4, 2));
+    }
+
 }
+
+
+
+
